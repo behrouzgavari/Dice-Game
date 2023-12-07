@@ -1,0 +1,60 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #ecf0f1;
+  color: #34495e;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+}
+
+main {
+  margin: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dice-container {
+  margin-bottom: 20px;
+}
+#dice-container img {
+  width: 60px;
+  margin: 0 10px;
+}
+
+#score-container {
+  margin-bottom: 20px;
+  background-color: #e74c3c;
+  padding: 10px;
+  border-radius: 5px;
+}
+#score-container p {
+  margin: 0;
+  color: white;
+}
+
+button {
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #2ecc71;
+}
+
+/*# sourceMappingURL=styles.css.map */
